@@ -25,11 +25,7 @@ export const metadata: Metadata = {
     "BookWise is a book borrowing university library management solution.",
 };
 
-const RootLayout = () => ({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+const RootLayout = async ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
       <body
@@ -40,7 +36,7 @@ const RootLayout = () => ({
       </body>
     </html>
   );
-}
+};
 
 
 export default RootLayout

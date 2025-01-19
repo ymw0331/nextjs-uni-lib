@@ -47,7 +47,7 @@ export const FIELD_NAMES = {
     password: "Password",
     universityCard: "Upload University ID Card",
 };
-
+ 
 export const FIELD_TYPES = {
     fullName: "text",
     email: "email",
